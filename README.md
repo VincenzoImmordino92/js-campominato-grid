@@ -17,15 +17,16 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 - con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
 
 ## Ragionamento logico
-1. Dichiarare la nostra variabile assegandogli il nostro container html.
+1. Variabili
 
-2. All'interno della funzione,  Creo il nostro contatore per generare il numero di box all'interno del nostro container.
+2. creo l'evento del click al bottone play
 
-3. Assegnare la variabile del bottone play alla nostra classe
+3. creo la funzione play per avviare il gioco all'interno del container
 
-4. Creare la funzione per genrare la griglia di gioco 
+4. creo la mia funzione di reset
 
-5. Creare la funzione per generare dinamicamente i box 
+5. creo la mia funzione generaGrigliaGioco
 
-6. 
+6. creo la mia funzione creazioneCelle che mi genera i quadrati
 
+7. creo la funzione al click della mia cella applicando la classe clicked
